@@ -139,6 +139,7 @@
 
 /*Перввая карточка*/
 .card {
+    font-family: "Roboto", sans-serif;
     display: flex;
     align-items: center;
     background-color: #fff;
@@ -167,6 +168,7 @@
 }
 
 .explore-button {
+    font-family: "Roboto", sans-serif;
     background-color: #808266;
     color: #fff;
     padding: 10px 20px;
@@ -182,6 +184,7 @@
 
 /*Вторая карточка*/
 .fee-card {
+    font-family: "Roboto", sans-serif;
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
@@ -209,6 +212,7 @@
 }
 
 .toggle-button {
+    font-family: "Roboto", sans-serif;
     background-color: #f0f0f0;
     border: none;
     padding: 10px 20px;
@@ -259,6 +263,7 @@
 
 /*Третья карточка*/
 .subscriber-card {
+    font-family: "Roboto", sans-serif;
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
@@ -272,17 +277,20 @@
 }
 
 .name {
+    font-family: "Roboto", sans-serif;
     font-size: 24px;
     margin-bottom: 15px;
 }
 
 .status-list {
+    font-family: "Roboto", sans-serif;
     list-style: none;
     padding: 0;
     margin-bottom: 20px;
 }
 
 .status-list li {
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     color: #555;
     margin-bottom: 10px;
@@ -323,4 +331,118 @@
 
 .detail-value {
     font-weight: bold;
+}
+
+/* Текст под карточками*/
+.title1 {
+    font-family: "Roboto", sans-serif;
+    color: #000000;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+    margin: 40px 0 10px 0;  /* Убираем отступы элемента */
+    padding: 0; /* Убираем внутренние отступы */
+    text-align: left; /* Выравниваем текст по левому краю */
+    justify-self: start; /* Ставим элемент к началу грида */
+}
+
+.paragraph1 {
+    font-family: "Roboto", sans-serif;
+    color: #000000;
+    font-size: 16px;
+    word-break: inherit;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;  /* Убираем отступы элемента */
+    padding: 0; /* Убираем внутренние отступы */
+    text-align: left; /* Выравниваем текст по левому краю */
+    justify-self: start; /* Ставим элемент к началу грида */
+}
+
+.title2 {
+    font-family: "Roboto", sans-serif;
+    color: #000000;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+    margin: 40px 0 10px 0;  /* Убираем отступы элемента */
+    padding: 0; /* Убираем внутренние отступы */
+    text-align: left; /* Выравниваем текст по левому краю */
+    justify-self: start; /* Ставим элемент к началу грида */
+}
+
+.paragraph2 {
+    font-family: "Roboto", sans-serif;
+    color: #000000;
+    font-size: 16px;
+    word-break: inherit;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;  /* Убираем отступы элемента */
+    padding: 0; /* Убираем внутренние отступы */
+    text-align: left; /* Выравниваем текст по левому краю */
+    justify-self: start; /* Ставим элемент к началу грида */
+}
+
+.title3 {
+    font-family: "Roboto", sans-serif;
+    color: #000000;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+    margin: 40px 0 10px 0;  /* Убираем отступы элемента */
+    padding: 0; /* Убираем внутренние отступы */
+    text-align: left; /* Выравниваем текст по левому краю */
+    justify-self: start; /* Ставим элемент к началу грида */
+}
+
+.paragraph3 {
+    font-family: "Roboto", sans-serif;
+    color: #000000;
+    font-size: 16px;
+    word-break: inherit;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;  /* Убираем отступы элемента */
+    padding: 0; /* Убираем внутренние отступы */
+    text-align: left; /* Выравниваем текст по левому краю */
+    justify-self: start; /* Ставим элемент к началу грида */
+}
+/* третий блок*/
+.fourth-container {
+    display: grid;
+    height: 500px;
+    padding: 0 0;
+    background-image: url("image3.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.fourth-title{
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 42px;
+    margin: 40px 0 0 0;
+    align-content: center;
+    justify-items: center;
+    text-align: center;
+    height: auto;
+    width: 100%;
+}
+
+.class1 {
+    padding: 0;
+}
+
+.fifth-paragraph {
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    font-weight: 400;
+    font-style: normal;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
