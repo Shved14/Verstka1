@@ -16,7 +16,7 @@
     background-position: center;
 }
 
-.first-paragraph{
+.first-paragraph {
     font-family: "Roboto", sans-serif;
     color: #ffffff;
     width: 820px;
@@ -42,63 +42,66 @@
     margin-top: 30px;
     border: white;
 }
- .first-title{
-     font-family: "Roboto", sans-serif;
-     color: #ffffff;
-     font-weight: bold;
-     width: 820px;
-     height: max-content;
-     font-size: 68px;
-     word-break: inherit;
- }
 
- .second-paragraph{
-     font-family: "Roboto", sans-serif;
-     color: #ffffff;
-     width: 500px;
-     height: max-content;
-     font-size: 22px;
-     word-break: inherit;
-     margin-top: 30px;
-     font-weight: 100;
-     font-style: normal;
- }
+.first-title {
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+    width: 820px;
+    height: max-content;
+    font-size: 68px;
+    word-break: inherit;
+}
 
- .second-container{
-     display: grid;
-     grid-template-columns: 1fr 2fr 1fr;
-     grid-auto-flow: row;
-     padding: 0 80px 0 80px;
-     background-size: cover;
-     background-position: center;
-     background-color: #fffdfb;
-     grid-template-areas:
+.second-paragraph {
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    width: 500px;
+    height: max-content;
+    font-size: 22px;
+    word-break: inherit;
+    margin-top: 30px;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.second-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-auto-flow: row;
+    padding: 0 80px 0 80px;
+    background-size: cover;
+    background-position: center;
+    background-color: #fffdfb;
+    grid-template-areas:
         "button other";
-     text-align: center;
-     height: auto;
- }
- .third-paragraph{
-     font-family: "Roboto", sans-serif;
-     color: #000000;
-     font-weight: 400;
-     font-style: normal;
-     justify-content: center;
-     align-items: center;
-     margin-top: 40px;
-     width: max-content;
- }
- .second-title{
-     font-family: "Roboto", sans-serif;
-     color: #000000;
-     font-weight: 400;
-     font-style: normal;
-     font-size: 42px;
-     margin: auto;
-     align-content: center;
-     width: 100%;
- }
+    text-align: center;
+    height: auto;
+}
 
-.fourth-paragraph{
+.third-paragraph {
+    font-family: "Roboto", sans-serif;
+    color: #000000;
+    font-weight: 400;
+    font-style: normal;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    width: max-content;
+}
+
+.second-title {
+    font-family: "Roboto", sans-serif;
+    color: #000000;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 42px;
+    margin: auto;
+    align-content: center;
+    width: 100%;
+}
+
+.fourth-paragraph {
     font-family: "Roboto", sans-serif;
     color: #000000;
     font-weight: 400;
@@ -109,7 +112,7 @@
 }
 
 
-.second-button{
+.second-button {
     font-family: "Roboto", sans-serif;
     background-color: white;
     height: 20px;
@@ -121,7 +124,7 @@
     margin-left: 90%;
 }
 
-.third-container{
+.third-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-auto-flow: row;
@@ -340,7 +343,7 @@
     font-weight: 500;
     font-style: normal;
     font-size: 24px;
-    margin: 40px 0 10px 0;  /* Убираем отступы элемента */
+    margin: 40px 0 10px 0; /* Убираем отступы элемента */
     padding: 0; /* Убираем внутренние отступы */
     text-align: left; /* Выравниваем текст по левому краю */
     justify-self: start; /* Ставим элемент к началу грида */
@@ -353,7 +356,7 @@
     word-break: inherit;
     font-weight: 400;
     font-style: normal;
-    margin: 0;  /* Убираем отступы элемента */
+    margin: 0; /* Убираем отступы элемента */
     padding: 0; /* Убираем внутренние отступы */
     text-align: left; /* Выравниваем текст по левому краю */
     justify-self: start; /* Ставим элемент к началу грида */
@@ -365,7 +368,7 @@
     font-weight: 500;
     font-style: normal;
     font-size: 24px;
-    margin: 40px 0 10px 0;  /* Убираем отступы элемента */
+    margin: 40px 0 10px 0; /* Убираем отступы элемента */
     padding: 0; /* Убираем внутренние отступы */
     text-align: left; /* Выравниваем текст по левому краю */
     justify-self: start; /* Ставим элемент к началу грида */
@@ -378,7 +381,7 @@
     word-break: inherit;
     font-weight: 400;
     font-style: normal;
-    margin: 0;  /* Убираем отступы элемента */
+    margin: 0; /* Убираем отступы элемента */
     padding: 0; /* Убираем внутренние отступы */
     text-align: left; /* Выравниваем текст по левому краю */
     justify-self: start; /* Ставим элемент к началу грида */
@@ -390,7 +393,7 @@
     font-weight: 500;
     font-style: normal;
     font-size: 24px;
-    margin: 40px 0 10px 0;  /* Убираем отступы элемента */
+    margin: 40px 0 10px 0; /* Убираем отступы элемента */
     padding: 0; /* Убираем внутренние отступы */
     text-align: left; /* Выравниваем текст по левому краю */
     justify-self: start; /* Ставим элемент к началу грида */
@@ -403,11 +406,12 @@
     word-break: inherit;
     font-weight: 400;
     font-style: normal;
-    margin: 0;  /* Убираем отступы элемента */
+    margin: 0; /* Убираем отступы элемента */
     padding: 0; /* Убираем внутренние отступы */
     text-align: left; /* Выравниваем текст по левому краю */
     justify-self: start; /* Ставим элемент к началу грида */
 }
+
 /* третий блок*/
 .fourth-container {
     display: grid;
@@ -419,7 +423,7 @@
     padding: 120px 0;
 }
 
-.fourth-title{
+.fourth-title {
     font-family: "Roboto", sans-serif;
     color: #ffffff;
     font-weight: 400;
@@ -446,7 +450,7 @@
     text-align: center;
 }
 
-.fifth-container{
+.fifth-container {
     display: grid;
     background-color: #60777C;
     background-size: cover;
@@ -457,7 +461,7 @@
 }
 
 /*Первая фотка и текст на зеленом фоне*/
-.sixth-container{
+.sixth-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: #60777C;
@@ -623,6 +627,7 @@
     width: 600px;
     height: 400px;
 }
+
 /*Четвертая фотка и текст на зеленом фоне*/
 .eighth-container {
     display: grid;
@@ -678,6 +683,7 @@
     width: 600px;
     height: 400px;
 }
+
 /*Пятая фотка и текст на зеленом фоне*/
 .nineth-container {
     display: grid;
@@ -732,4 +738,173 @@
 .image8 {
     width: 600px;
     height: 400px;
+}
+
+/*Пятая фотка и текст на зеленом фоне*/
+.tenth-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #60777C;
+    background-size: cover;
+    background-position: center;
+    grid-template-rows: auto auto auto;
+    column-gap: 20px;
+    padding: 120px 0 0 0;
+    height: max-content;
+    justify-items: center;
+    align-items: center;
+}
+
+.grid-item11 {
+    background-color: #60777C;
+    padding: 20px 0 0 0;
+    text-align: center;
+}
+
+.grid-item12 {
+    background-color: #60777C;
+    padding: 0;
+    text-align: center;
+}
+
+.tenth-title {
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+    width: max-content;
+    height: max-content;
+    font-size: 12px;
+    word-break: inherit;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+.tenthv1-title {
+    font-family: "Roboto", sans-serif;
+    color: #3d494f;
+    font-weight: bold;
+    width: max-content;
+    height: max-content;
+    font-size: 12px;
+    word-break: inherit;
+    font-style: normal;
+    text-transform: uppercase;
+    border-bottom: 2px solid #3d494f; /* Толщина и цвет линии */
+}
+
+.eleventh-paragraph {
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    width: 500px;
+    height: max-content;
+    font-size: 22px;
+    word-break: inherit;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 120px;
+}
+
+.image9 {
+    width: 600px;
+    height: 400px;
+}
+
+/*Создание витрины картинок, слайды, хз как это называется*/
+
+
+.eleventh-container {
+    display: grid;
+    background-color: #60777C;
+    background-size: cover;
+    background-position: center;
+    padding: 120px 0 0 0;
+    height: max-content;
+    justify-items: center;
+    align-items: center;
+}
+
+.eleventh-title {
+    font-family: "Roboto", sans-serif;
+    color: #000000;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 42px;
+    align-content: center;
+    justify-items: center;
+    text-align: center;
+    height: auto;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.twelveth-paragraph {
+    font-family: "Roboto", sans-serif;
+    color: #000000;
+    font-style: normal;
+    font-size: 20px;
+    align-content: center;
+    justify-items: center;
+    text-align: center;
+    height: auto;
+    width: 100%;
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+.eleventhv1-title {
+    font-family: "Roboto", sans-serif;
+    color: #000000;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    align-content: center;
+    justify-items: center;
+    text-align: center;
+    height: auto;
+    width: 100%;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+.slider {
+    width: 800px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    display: grid;
+    margin-right: 400px;
+    margin-left: 450px;
+
+}
+
+.slider-img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0; /*Картинки скрыты*/
+    transition: opacity 0.5s ease;
+}
+
+.slider-img.active {
+    opacity: 1; /*Картинки показываются*/
+}
+
+.slider img { /*Выравнивание посередине для кнопок*/
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.slider .prev { /*Отступ слева*/
+    left: 10px;
+}
+
+.slider .next { /*Отступ справа*/
+    right: 10px;
 }
