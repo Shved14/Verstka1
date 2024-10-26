@@ -411,12 +411,12 @@
 /* третий блок*/
 .fourth-container {
     display: grid;
-    height: 500px;
-    padding: 0 0;
     background-image: url("image3.jpg");
     background-size: cover;
     background-position: center;
-
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+    padding: 120px 0;
 }
 
 .fourth-title{
@@ -425,7 +425,6 @@
     font-weight: 400;
     font-style: normal;
     font-size: 42px;
-    margin: 40px 0 0 0;
     align-content: center;
     justify-items: center;
     text-align: center;
@@ -445,4 +444,292 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.fifth-container{
+    display: grid;
+    background-color: #60777C;
+    background-size: cover;
+    background-position: center;
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+    padding: 120px 0;
+}
+
+/*Первая фотка и текст на зеленом фоне*/
+.sixth-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #60777C;
+    background-size: cover;
+    background-position: center;
+    grid-template-rows: auto auto auto;
+    column-gap: 20px;
+    padding: 0;
+    height: max-content;
+    justify-items: center;
+    align-items: center;
+}
+
+.grid-item1 {
+    background-color: #60777C;
+    padding: 40px 0 0 0;
+    text-align: center;
+}
+
+.grid-item2 {
+    background-color: #60777C;
+    padding: 0;
+    text-align: center;
+}
+
+.fifth-title {
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+    width: max-content;
+    height: max-content;
+    font-size: 42px;
+    word-break: inherit;
+    font-style: normal;
+}
+
+.sixth-paragraph {
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    width: 500px;
+    height: max-content;
+    font-size: 22px;
+    word-break: inherit;
+    margin-top: 30px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+}
+
+.image4 {
+    width: 600px;
+    height: 400px;
+}
+
+/*Вторая фотка и текст на зеленом фоне*/
+.seventh-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #60777C;
+    background-size: cover;
+    background-position: center;
+    grid-template-rows: auto auto auto;
+    column-gap: 20px;
+    padding: 120px 0 0 0;
+    height: max-content;
+    justify-items: center;
+    align-items: center;
+}
+
+.grid-item3 {
+    background-color: #60777C;
+    padding: 20px 0 0 0;
+    text-align: center;
+}
+
+.grid-item4 {
+    background-color: #60777C;
+    padding: 0;
+    text-align: center;
+}
+
+.sixth-title {
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+    width: max-content;
+    height: max-content;
+    font-size: 42px;
+    word-break: inherit;
+    font-style: normal;
+}
+
+.seventh-paragraph {
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    width: 500px;
+    height: max-content;
+    font-size: 22px;
+    word-break: inherit;
+    margin-top: 30px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+}
+
+.image5 {
+    width: 600px;
+    height: 400px;
+}
+
+/*Третья фотка и текст на зеленом фоне*/
+.eighth-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #60777C;
+    background-size: cover;
+    background-position: center;
+    grid-template-rows: auto auto auto;
+    column-gap: 20px;
+    padding: 120px 0 0 0;
+    height: max-content;
+    justify-items: center;
+    align-items: center;
+}
+
+.grid-item5 {
+    background-color: #60777C;
+    padding: 40px 0 0 0;
+    text-align: center;
+}
+
+.grid-item6 {
+    background-color: #60777C;
+    padding: 0;
+    text-align: center;
+}
+
+.seventh-title {
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+    width: max-content;
+    height: max-content;
+    font-size: 42px;
+    word-break: inherit;
+    font-style: normal;
+}
+
+.eighth-paragraph {
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    width: 500px;
+    height: max-content;
+    font-size: 22px;
+    word-break: inherit;
+    margin-top: 30px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+}
+
+.image6 {
+    width: 600px;
+    height: 400px;
+}
+/*Четвертая фотка и текст на зеленом фоне*/
+.eighth-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #60777C;
+    background-size: cover;
+    background-position: center;
+    grid-template-rows: auto auto auto;
+    column-gap: 20px;
+    padding: 120px 0 0 0;
+    height: max-content;
+    justify-items: center;
+    align-items: center;
+}
+
+.grid-item7 {
+    background-color: #60777C;
+    padding: 20px 0 0 0;
+    text-align: center;
+}
+
+.grid-item8 {
+    background-color: #60777C;
+    padding: 0;
+    text-align: center;
+}
+
+.eighth-title {
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+    width: max-content;
+    height: max-content;
+    font-size: 42px;
+    word-break: inherit;
+    font-style: normal;
+}
+
+.nineth-paragraph {
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    width: 500px;
+    height: max-content;
+    font-size: 22px;
+    word-break: inherit;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.image7 {
+    width: 600px;
+    height: 400px;
+}
+/*Пятая фотка и текст на зеленом фоне*/
+.nineth-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #ffffff;
+    background-size: cover;
+    background-position: center;
+    grid-template-rows: auto auto auto;
+    column-gap: 20px;
+    padding: 120px 0 0 0;
+    height: max-content;
+    justify-items: center;
+    align-items: center;
+}
+
+.grid-item9 {
+    background-color: #ffffff;
+    padding: 20px 0 0 0;
+    text-align: center;
+}
+
+.grid-item10 {
+    background-color: #ffffff;
+    padding: 0;
+    text-align: center;
+}
+
+.nineth-title {
+    font-family: "Roboto", sans-serif;
+    color: #000000;
+    font-weight: bold;
+    width: max-content;
+    height: max-content;
+    font-size: 42px;
+    word-break: inherit;
+    font-style: normal;
+}
+
+.tenth-paragraph {
+    font-family: "Roboto", sans-serif;
+    color: #000000;
+    width: 500px;
+    height: max-content;
+    font-size: 22px;
+    word-break: inherit;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.image8 {
+    width: 600px;
+    height: 400px;
 }
