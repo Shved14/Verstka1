@@ -27,3 +27,18 @@ controlls.forEach((e) =>{
     })
 })
 show(imageIndex)
+
+document.querySelectorAll('.faq-question').forEach(item => {
+    item.addEventListener('click', () => {
+        const answer = item.nextElementSibling;
+        const plus = item.querySelector('.plus');
+
+        if (answer.style.display === 'block') {
+            answer.style.display = 'none';
+            plus.textContent = '+';
+        } else {
+            answer.style.display = 'block';
+            plus.textContent = '-';
+        }
+    });
+});
