@@ -1024,11 +1024,10 @@
 
 
 .faq-section {
-    max-width: 600px;
-    width: 100%;
-    padding: 20px;
-    text-align: center; /* Центрирует текст в разделе FAQ */
+    background-color: #000000;
+    text-align: center;
     display: flex;
+    padding: 0 400px 0 400px;
     flex-direction: column;
     align-items: center;
 }
@@ -1041,8 +1040,7 @@ h1 {
 .faq {
     width: 100%; /* Чтобы блоки занимали всю ширину в пределах секции */
     border-top: 1px solid #555;
-    padding: 15px 0;
-    text-align: left; /* Вопросы будут слева */
+    text-align: center; /* Вопросы будут слева */
 }
 
 .faq:last-child {
@@ -1055,6 +1053,11 @@ h1 {
     align-items: center;
     cursor: pointer;
     font-size: 18px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.paragraph4{
+    color: #fff;
 }
 
 .plus {
@@ -1068,3 +1071,162 @@ h1 {
     font-size: 16px;
     color: #bbb;
 }
+.title{
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 42px;
+    height: auto;
+    width: 100%;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+/*тут два пункта скипнул*/
+.twelveth-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #000000;
+    background-size: cover;
+    background-position: center;
+    grid-template-rows: auto auto auto;
+    column-gap: 20px;
+    padding: 120px 0 0 0;
+    height: max-content;
+    justify-items: center;
+    align-items: center;
+}
+
+.grid-item13 {
+    background-color: #000000;
+    padding: 20px 0 0 0;
+    text-align: center;
+}
+
+.grid-item14 {
+    background-color: #000000;
+    padding: 0;
+    text-align: center;
+}
+
+.twelveth-title {
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+    width: max-content;
+    height: max-content;
+    font-size: 42px;
+    word-break: inherit;
+    font-style: normal;
+}
+
+.thirteenth-paragraph {
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    width: 500px;
+    height: max-content;
+    font-size: 22px;
+    word-break: inherit;
+    font-weight: 200;
+    font-style: normal;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.image10 {
+    width: 600px;
+    height: 800px;
+}
+
+.twelvethv1-title {
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    font-weight: 200;
+    width: max-content;
+    height: max-content;
+    font-size: 18px;
+    word-break: inherit;
+    margin-top: 20px;
+    font-style: normal;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.twelvethv2-title {
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    font-weight: 200;
+    width: max-content;
+    height: max-content;
+    font-size: 18px;
+    word-break: inherit;
+    font-style: normal;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+
+.twelvethv3-title {
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    font-weight: 200;
+    width: max-content;
+    height: max-content;
+    font-size: 18px;
+    word-break: inherit;
+    font-style: normal;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.thirteenth-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #000000;
+    grid-template-rows: auto auto auto;
+    column-gap: 20px;
+    padding: 40px 0 0 0;
+    height: max-content;
+    text-align: left;
+}
+
+.grid-item15 {
+    background-color: #000000;
+    padding: 20px 0 0 0;
+    text-align: center;
+}
+
+.fourteenth-paragraph{
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    width: 500px;
+    height: max-content;
+    font-size: 22px;
+    word-break: inherit;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #ddd;
+}
+
