@@ -1188,46 +1188,49 @@ h1 {
     text-decoration: underline;
 }
 
-.thirteenth-container{
+.fourteenth-container{
     display: grid;
+    width: 100%;
     grid-template-columns: 1fr 1fr;
+    column-gap: 0;
     background-color: #000000;
-    grid-template-rows: auto auto auto;
-    column-gap: 20px;
     padding: 40px 0 0 0;
     height: max-content;
-    text-align: left;
+    text-align: start;
 }
 
-.grid-item15 {
-    background-color: #000000;
-    padding: 20px 0 0 0;
-    text-align: center;
-}
-
-.fourteenth-paragraph{
+.thirteen-title{
     font-family: "Roboto", sans-serif;
     color: #ffffff;
-    width: 500px;
     height: max-content;
     font-size: 22px;
     word-break: inherit;
     font-weight: 400;
     font-style: normal;
-    text-align: left;
     margin-top: 30px;
+    margin-left: 90px;
+    width: max-content;
+}
+.grrid{
+    justify-content: flex-end;
 }
 
 .button {
     padding: 10px 20px;
+    width: max-content;
+    height: max-content;
     background-color: #fff;
     color: #000;
     font-weight: bold;
     text-transform: uppercase;
     border: none;
-    border-radius: 5px;
     cursor: pointer;
     text-decoration: none;
+    margin-top: 50px;
+    float: right;
+    justify-content: flex-end;
+    align-items: end;
+    margin-right: 80px;
     transition: background-color 0.3s;
 }
 
@@ -1235,3 +1238,6 @@ h1 {
     background-color: #ddd;
 }
 
+.button:active {
+    background-color: #4c4c4c; /* Цвет кнопки при нажатии */
+}
