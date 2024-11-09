@@ -432,8 +432,8 @@
     align-content: center;
     justify-items: center;
     text-align: center;
-    height: auto;
     width: 100%;
+    height: max-content;
 }
 
 .class1 {
@@ -448,6 +448,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    height: max-content;
 }
 
 .fifth-container {
@@ -581,7 +582,7 @@
     background-position: center;
     grid-template-rows: auto auto auto;
     column-gap: 20px;
-    padding: 120px 0 0 0;
+    padding: 120px 0 120px;
     height: max-content;
     justify-items: center;
     align-items: center;
@@ -637,7 +638,7 @@
     background-position: center;
     grid-template-rows: auto auto auto;
     column-gap: 20px;
-    padding: 120px 0 0 0;
+    padding: 120px 0 120px;
     height: max-content;
     justify-items: center;
     align-items: center;
@@ -693,7 +694,7 @@
     background-position: center;
     grid-template-rows: auto auto auto;
     column-gap: 20px;
-    padding: 120px 0 0 0;
+    padding: 120px 0 120px;
     height: max-content;
     justify-items: center;
     align-items: center;
@@ -749,7 +750,7 @@
     background-position: center;
     grid-template-rows: auto auto auto;
     column-gap: 20px;
-    padding: 120px 0 0 0;
+    padding: 120px 0 120px;
     height: max-content;
     justify-items: center;
     align-items: center;
@@ -819,7 +820,7 @@
     background-color: #ffffff;
     background-size: cover;
     background-position: center;
-    padding: 120px 0 0 0;
+    padding: 120px 0 120px;
     height: max-content;
     justify-items: center;
     align-items: center;
@@ -915,8 +916,8 @@
         "button other";
     height: auto;
     grid-gap: 20px; /* Промежутки между элементами */
-    padding: 20px;
     box-sizing: border-box; /* Обеспечивает, что padding не добавляется к ширине */
+    padding: 40px;
 }
 
 .twelth-title {
@@ -924,7 +925,7 @@
     color: #ffffff;
     font-weight: 400;
     font-style: normal;
-    font-size: 42px;
+    font-size: 72px;
     height: auto;
     width: 100%;
     margin-top: 40px;
@@ -958,6 +959,7 @@
     text-align: left;
     margin-top: 40px;
     margin-left: 280px;
+    padding: 0 40px 0 0;
 }
 
 .thirteenth-paragraphv2 {
@@ -972,6 +974,7 @@
     text-align: left;
     margin-top: 30px;
     margin-left: 280px;
+    padding: 0 40px 0 0;
 }
 
 .thirteenth-paragraphv3 {
@@ -986,6 +989,7 @@
     text-align: left;
     margin-top: 30px;
     margin-left: 280px;
+    padding: 0 40px 0 0;
 }
 
 .thirteenth-paragraphv4 {
@@ -1000,6 +1004,7 @@
     text-align: left;
     margin-top: 30px;
     margin-left: 280px;
+    padding: 0 40px 0 0;
 }
 
 .thirteenth-paragrapv5 {
@@ -1014,6 +1019,7 @@
     text-align: left;
     margin-top: 30px;
     margin-left: 280px;
+    padding: 0 40px 0 0;
 }
 
 .thirteenth-container {
@@ -1191,12 +1197,12 @@ h1 {
 .fourteenth-container{
     display: grid;
     width: 100%;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     column-gap: 0;
     background-color: #000000;
-    padding: 40px 0 0 0;
     height: max-content;
     text-align: start;
+    padding: 20px 0 120px 0;
 }
 
 .thirteen-title{
@@ -1208,14 +1214,14 @@ h1 {
     font-weight: 400;
     font-style: normal;
     margin-top: 30px;
-    margin-left: 90px;
-    width: max-content;
+    margin-left: 50px;
+    width: 500px;
 }
 .grrid{
     justify-content: flex-end;
 }
 
-.button {
+.button3 {
     padding: 10px 20px;
     width: max-content;
     height: max-content;
@@ -1241,3 +1247,198 @@ h1 {
 .button:active {
     background-color: #4c4c4c; /* Цвет кнопки при нажатии */
 }
+
+.hard-container {
+    display: grid;
+    background-color: #ffffff;
+    height: auto;
+    box-sizing: border-box; /* Обеспечивает, что padding не добавляется к ширине */
+    padding: 40px;
+}
+
+.hard-titlev1 {
+    font-family: "Roboto", sans-serif;
+    color: #000000;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    height: auto;
+    width: 100%;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.hard-titlev2 {
+    font-family: "Roboto", sans-serif;
+    color: #000000;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    height: auto;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.container-1{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    grid-auto-flow: row;
+    background-color: #ffffff;
+    grid-template-areas:
+        "button other";
+    height: auto;
+    grid-gap: 20px; /* Промежутки между элементами */
+    box-sizing: border-box; /* Обеспечивает, что padding не добавляется к ширине */
+    padding: 40px;
+}
+
+/*Стиль для Radio Button*/
+label {
+    margin-right: 15px;
+    line-height: 32px;
+}
+
+input {
+    appearance: none;
+
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+
+    border: 1px solid #bdbdbd;
+    transition: 0.2s all linear;
+    margin-right: 5px;
+
+    position: relative;
+    top: 4px;
+}
+
+input:checked {
+    border: 6px solid #969696;
+}
+
+.paragraph-column1num1{
+    font-family: "Roboto", sans-serif;
+    color: #000000;
+    height: max-content;
+    font-size: 22px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+.paragraph-column1num2{
+    font-family: "Roboto", sans-serif;
+    color: #000000;
+    height: max-content;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.paragraph-column1num3{
+    font-family: "Roboto", sans-serif;
+    color: #000000;
+    height: max-content;
+    font-size: 10px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.paragraph-column1num4{
+    font-family: "Roboto", sans-serif;
+    color: #238fe7;
+    height: max-content;
+    font-size: 10px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.container-2{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    grid-auto-flow: row;
+    background-color: #ffffff;
+    grid-template-areas:
+        "button other";
+    height: auto;
+    grid-gap: 20px; /* Промежутки между элементами */
+    box-sizing: border-box; /* Обеспечивает, что padding не добавляется к ширине */
+    padding: 40px;
+}
+
+.paragraph-column2num1{
+    font-family: "Roboto", sans-serif;
+    color: #000000;
+    height: max-content;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px 0;
+}
+
+.paragraph-hard1{
+    font-family: "Roboto", sans-serif;
+    color: #a8a8a8;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    height: auto;
+}
+
+.paragraph-hard2{
+    font-family: "Roboto", sans-serif;
+    color: #000000;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    height: auto;
+    margin-top: 10px;
+    padding: 10px 0;
+}
+
+.hard-titlev3 {
+    font-family: "Roboto", sans-serif;
+    color: #000000;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    height: auto;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.container-3{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-auto-flow: row;
+    background-color: #ffffff;
+    grid-template-areas:
+        "button other";
+    height: auto;
+    grid-gap: 20px; /* Промежутки между элементами */
+    box-sizing: border-box; /* Обеспечивает, что padding не добавляется к ширине */
+    padding: 40px;
+}
+
+.paragraph-column3num1{
+    font-family: "Roboto", sans-serif;
+    color: #000000;
+    height: max-content;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 10px;
+    text-align: left;
+}
+

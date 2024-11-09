@@ -2,24 +2,23 @@ const images = document.querySelectorAll('.slider-img');/*Получение м�
 const controlls = document.querySelectorAll('.controlls ');/*Получение массива кнопок*/
 let imageIndex = 0;
 
-function show(index){
+function show(index) {
     images[imageIndex].classList.remove('active');
     images[index].classList.add('active');
     imageIndex = index;
 }
 
-controlls.forEach((e) =>{
+controlls.forEach((e) => {
     e.addEventListener('click', () => {
-        if (event.target.classList.contains('prev')){
+        if (event.target.classList.contains('prev')) {
             let index = imageIndex - 1;
             if (index < 0) {
                 index = images.length - 1;
             }
             show(index);
-        }
-        else if (event.target.classList.contains('next')){
+        } else if (event.target.classList.contains('next')) {
             let index = imageIndex + 1;
-            if (index >= images.length){
+            if (index >= images.length) {
                 index = 0;
             }
             show(index);
@@ -31,6 +30,7 @@ show(imageIndex)
 document.querySelectorAll('.faq-question').forEach(item => {
     item.addEventListener('click', () => {
         const answer = item.nextElementSibling;
+        console.log(item.nextElementSibling)
         const plus = item.querySelector('.plus');
 
         if (answer.style.display === 'block') {
